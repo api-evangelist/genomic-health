@@ -1,8 +1,24 @@
 aid: genomic-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genomic-health.png
 name: Genomic Health
-description: 'Genomic Health is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Genomic Health, Inc. was a Redwood City, California molecular diagnostics company founded
+  in 2000 and known for its Oncotype DX suite of genomic tests, which analyze tumor gene-expression to
+  guide treatment decisions in breast, colon, and prostate cancer. Backed by Kleiner Perkins, it went
+  public in 2005 and was acquired by Exact Sciences in November 2019. It no longer operates as an
+  independent company: the genomichealth.com domain now 301-redirects to exactsciences.com, and there
+  is no independent Genomic Health developer portal, public API, or documentation surface. This record
+  is retained as a VC-portfolio lead; no live API artifacts could be enriched.'
 url: https://raw.githubusercontent.com/api-evangelist/genomic-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,28 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: exact-sciences
+x-acquired-date: '2019-11'
+x-redirects-to: https://www.exactsciences.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Genomics
+- Diagnostics
+- Oncology
+- Precision Medicine
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
